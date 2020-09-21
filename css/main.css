@@ -1801,7 +1801,7 @@ body.menu-is-open {
 
 .header-nav__list a::before {
   display: block;
-  content: counter(ctr, decimal-leading-zero) ".";
+  /* content: counter(ctr, decimal-leading-zero) "."; */
   counter-increment: ctr;
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
