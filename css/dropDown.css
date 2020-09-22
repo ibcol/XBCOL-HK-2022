@@ -56,6 +56,21 @@
   text-decoration: underline !important;
 }
 
+.header-nav__list .dropdown .text-black:hover {
+  color: #0086ca !important;
+  text-decoration: underline !important;
+}
+
+/* .header-nav__list .dropdown:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.header-nav__list .dropdown-content a:hover {
+  background-color: #000 !important;
+  color: #0086ca !important;
+}
+
 .header-nav .dropdown a:visited {
   color: black !important;
-}
+} */

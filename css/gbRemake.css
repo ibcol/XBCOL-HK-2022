@@ -16,6 +16,10 @@
   border: #000;
 }
 
+.text-black {
+  color: #000 !important;
+}
+
 .pageAnchorColor {
   color: #0286ca !important;
 }
