@@ -47,6 +47,6 @@
   text-decoration: none !important;
 }
 
-.mb-24 {
-  margin-bottom: 24px;
+.show {
+  display: block;
 }
