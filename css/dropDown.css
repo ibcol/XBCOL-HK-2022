@@ -43,6 +43,6 @@
 }
 
 .nav_list li a.disable:hover {
-  color: black !important;
+  /* color: black !important; */
   text-decoration: none !important;
 }
