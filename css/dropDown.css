@@ -38,6 +38,7 @@
 }
 
 .disable {
+  color: rgb(69, 69, 69) !important;
   background-color: #f1f1f1 !important;
 }
 
