@@ -46,3 +46,7 @@
   /* color: black !important; */
   text-decoration: none !important;
 }
+
+.mb-24 {
+  margin-bottom: 24px;
+}
