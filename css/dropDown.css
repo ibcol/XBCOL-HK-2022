@@ -50,3 +50,12 @@
 .show {
   display: block;
 }
+
+.header-nav__list .dropdown.colorWt2:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.header-nav .dropdown a:visited {
+  color: black !important;
+}
