@@ -42,6 +42,10 @@
   background-color: #f1f1f1 !important;
 }
 
+.disable2 {
+  color: rgb(176, 176, 176) !important;
+}
+
 .nav_list li a.disable:hover {
   /* color: black !important; */
   text-decoration: none !important;
