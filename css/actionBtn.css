@@ -7,3 +7,9 @@
   line-height: 6.2rem !important;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 414px) {
+  .ctn {
+    font-size: 16px !important;
+  }
+}
