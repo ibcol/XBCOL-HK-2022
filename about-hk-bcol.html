@@ -13,13 +13,13 @@
     <meta property="og:image" content="./images/logo/IBCOL-HK.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/vendor.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/gbRemake.css" />
+    <link rel="stylesheet" href="./css/dropDown.css" />
 
     <script src="./js/modernizr.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
@@ -50,16 +50,35 @@
         </div>
         <div class="desktop-nav">
             <ul class="nav_list">
-                <li><a class="NavLinkComponent pageAnchorColor" route="" href="about-hk-bcol.html">About</a></li>
-                <!-- <li><a class="NavLinkComponent " route="" href="how-to-join-hk-bcol.html">How To Join</a></li>
-                <li><a class="NavLinkComponent " route="" href="get-started-with-hk-bcol.html">Get Started</a>
-                </li> -->
-                <li><a class="NavLinkComponent " route="" href="schedule.html">Schedule</a>
+                <li class="dropdown">
+                    <a class="dropbtn pageAnchorColor">About ▾</a>
+                    <div class="dropdown-content">
+                        <a href="./about-hk-bcol.html">About HKBCOL</a>
+                        <a href="https://2018.hk.ibcol.org/">HKBCOL 2018</a>
+                        <a class="" href="http://2019.ibcol.org/">HKBCOL 2019</a>
+                        <a href="https://2020.hk.ibcol.org/">HKBCOL 2020</a>
+                    </div>
                 </li>
-                <li><a class="NavLinkComponent" route="" href="faq-hk-bcol.html" class="">FAQ</a></li>
-                <li><a class="NavLinkComponent " route="" href="contact-hk-bcol.html" class="">Contact</a></li>
-                <li class=""><a class="NavLinkComponent regBorder2 colorWt2" route="" href="visitor-registration.html"
-                        target="_blank">REGISTER</a></li>
+                <!-- <li class="dropdown">
+                    <a class="dropbtn" onclick="window.location.href='./program.html';">Program ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Training & Mentorship</a>
+                        <a href="#">HKBCOL & IBCOL Finals</a>
+                    </div>
+                </li> -->
+                <li><a class="NavLinkComponent" route="" href="./get-started-with-hk-bcol.html" class="">Get Started</a></li>
+                <li><a class="NavLinkComponent" route="" href="./how-to-join-hk-bcol.html" class="">How To Join</a></li>
+                <li><a class="NavLinkComponent " route="" href="./program.html" class="">Program</a></li>
+                <li><a class="NavLinkComponent " route="" href="./rules.html" class="">Rules</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn">Registration ▾</a>
+                    <div class="dropdown-content">
+                        <a href="https://bit.ly/32RYUOl" class="">Training</a>
+                        <a class="disable">Mentorship </a>
+                        <a class="disable">HKBCOL Finals</a>
+                        <a href="http://t.ly/ZBkn" class="">Special Event</a>
+                    </div>
+                </li>
             </ul>
         </div>
 
@@ -67,13 +86,34 @@
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <li><a href="about-hk-bcol.html">About</a></li>
-                    <!-- <li><a href="how-to-join-hk-bcol.html">How To Join</a></li>
-                    <li><a href="get-started-with-hk-bcol.html">Get Started</a></li> -->
-                    <li><a href="schedule.html">Schedule</a></li>
-                    <li><a href="faq-hk-bcol.html">FAQ</a></li>
-                    <li class="featured"><a href="contact-hk-bcol.html">Contact</a></li>
-                    <li><a href="visitor-registration.html" target="_blank">REGISTER</a></li>
+                    <li>
+                        <h2 class="text-white my-0">- About ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="./about-hk-bcol.html">About HKBCOL</a></li>
+                    <li><a class="NavLinkComponent" href="https://2018.hk.ibcol.org/">HKBCOL 2018</a></li>
+                    <li><a class="NavLinkComponent" href="http://2019.ibcol.org/">HKBCOL 2019</a></li>
+                    <li><a class="NavLinkComponent mb-2" href="https://2020.hk.ibcol.org/">HKBCOL 2020</a></li>
+
+                    <li>
+                        <h2 class="my-0"><a class="NavLinkComponent" href="./get-started-with-hk-bcol.html">Get Started</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="my-0"><a class="NavLinkComponent" href="./how-to-join-hk-bcol.html">How To Join</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="my-0"><a class="NavLinkComponent" href="./program.html">Program</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="my-0"><a class="NavLinkComponent mb-2" href="./rules.html">Rules</a></h2>
+                    </li>
+
+                    <li>
+                        <h2 class="text-white my-0">Registration ▾</h2>
+                    </li>
+                    <li><a class="NavLinkComponent" href="https://bit.ly/32RYUOl">Training</a></li>
+                    <li><a class="NavLinkComponent disable2">Mentorship </a></li>
+                    <li><a class="NavLinkComponent disable2">HKBCOL Finals</a></li>
+                    <li><a class="NavLinkComponent" href="http://t.ly/ZBkn" class="">Special Event</a></li>
                 </ul>
             </div>
         </nav>
@@ -161,13 +201,13 @@
                         <img src="images/IBCOL 2019 Photos/9916.jpg">
                     </div>
                     <div class="mt-5">
-                        <img src="images/IBCOL 2021 Photos/4248.jpg">
+                        <img src="images/IBCOL 2019 Photos/9912.jpg">
                     </div>
                     <div class="mt-5">
                         <img src="images/IBCOL 2019 Photos/9938.jpg">
                     </div>
                     <div class="mt-5 mb-7">
-                        <img src="images/IBCOL 2021 Photos/4486.jpg">
+                        <img src="images/IBCOL 2019 Photos/pitch3.jpg">
                     </div>
                 </div>
 
@@ -217,16 +257,11 @@
                     </div>
                     <br>
                     <div class="col-12 ">
-                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img
-                                class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
-                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/tt.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/fb.png"></a>&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg"
-                                src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
+                        <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg" src="./images/sm/ig.png"></a>&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UCxN1ZN_bSlWlVWncT9QcTkg" target="_blank"><img class="media768FooterImg" src="./images/sm/yt.png"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/ibcolorg" target="_blank"><img class="media768FooterImg" src="./images/sm/tt.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/ibcol.org" target="_blank"><img class="media768FooterImg" src="./images/sm/fb.png"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/company/ibcol" target="_blank"><img class="media768FooterImg" src="./images/sm/li.png"></a>&nbsp;&nbsp;</div>
                 </div>
                 <div class="col-12 mb-4 mt-4">
 
