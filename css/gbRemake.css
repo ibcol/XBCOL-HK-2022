@@ -478,6 +478,12 @@
   height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .s-section {
+    padding-top: 0px !important;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .timeline .time-line49 {
     display: none;
