@@ -234,21 +234,32 @@
                 <div class="col-block no-results">
                     <div class="item-process__text">
                         <h1 class="mb-4">Training starting September 2020</h1>
-                        <ol>
+                        <ol class="mb-2">
                             <li>Start from fundamental concepts</li>
                             <li>Learn how to design a working solution</li>
                             <li>Experience the latest platforms</li>
                         </ol>
+
+                        <p class="mb-0">You can register the training section:</p>
+                        <button type="button" onclick="openInNewTab('https://bit.ly/32RYUOl');" class="btn btn-primary btn-stu reg-training-btn" style="">Register training</button>
                     </div>
                 </div>
                 <div class="col-block get-results">
                     <div class="item-process__text">
                         <h1 class="mb-4">HKBCOL 2021 Program & Schedule</h1>
-                        <ol>
+                        <ol class="mb-2">
                             <li>Comprehensive training starting September</li>
                             <li>Hong Kong Regional Finals on 19 June 2021</li>
                             <li>International Finals from 2 to 4 July 2021</li>
                         </ol>
+
+                        <p class="mb-0">You can register as:</p>
+                        <button type="button" onclick="openInNewTab('./secondary-student-get-started.html');" class="btn btn-primary btn-stu">Secondary Student</button>
+                        <button type="button" onclick="openInNewTab('./university-student-get-started.html');" class="btn btn-primary btn-stu">University Student</button>
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -354,8 +365,15 @@ toggle between hiding and showing the dropdown content */
             }
         };
 
+        function openInNewTab(url) {
+            var win = window.open(url, '_blank');
+            win.focus();
+        }
+
     </script>
 
 </body>
+
+
 
 </html>

@@ -1,3 +1,37 @@
+.btn-stu {
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  height: 3.5rem;
+  line-height: 0rem;
+  /* padding: 0 3rem; */
+  /* margin: 0 0.3rem 1.2rem 0; */
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #c5c5c5;
+  /* border: 0.2rem solid #c5c5c5; */
+}
+
+.reg-training-btn {
+  background-color: #0086ca;
+  border-color: #0086ca;
+  color: white;
+}
+
+.reg-training-btn:hover {
+  background-color: #007dbc;
+  border-color: #0086ca;
+  color: white;
+}
+
 .py-8rem {
   padding-top: 8rem;
   padding-bottom: 8rem;
