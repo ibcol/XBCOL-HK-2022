@@ -20,6 +20,22 @@
   /* border: 0.2rem solid #c5c5c5; */
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-bottom {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
+}
+
 .reg-training-btn {
   background-color: #0086ca;
   border-color: #0086ca;
@@ -244,6 +260,31 @@
 
   display: flex;
   align-items: center;
+
+  color: #0286ca;
+}
+
+.headerBlueText2 {
+  margin-top: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #0286ca;
+}
+
+.headerBlueText3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
 
   color: #0286ca;
 }
@@ -512,6 +553,46 @@
   height: 100%;
 }
 
+.s-section h2.blueText {
+  color: #0286ca !important;
+}
+
+.blueBg {
+  color: #fff;
+  border-color: #0286ca !important;
+  background-color: #0286ca !important;
+}
+
+.blueBg:focus {
+  color: #fff;
+}
+
+.blueBg:hover {
+  color: #fff;
+  border-color: #007ab7 !important;
+  background-color: #007ab7 !important;
+}
+
+.newblack {
+  color: #2e2e2e !important;
+}
+
+.black1 {
+  color: #5c5c5c !important;
+  font-size: 1.5rem;
+}
+
+ol,
+.sec-unvi ul {
+  margin-left: 3.7rem;
+}
+
+/* .prizesImgTemp {
+  max-width: 150px;
+  min-height: 100px;
+  height: auto;
+} */
+
 @media only screen and (max-width: 600px) {
   .s-section {
     padding-top: 0px !important;
@@ -724,6 +805,20 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  .headerBlueText3 {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .s-section h2 {
+    font-size: 2rem !important;
+  }
+
+  .headerBlueText2 {
+    font-size: 2rem !important;
   }
 }
 
