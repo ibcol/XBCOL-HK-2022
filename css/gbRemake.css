@@ -521,6 +521,38 @@ ul.dashed > li:before {
   height: 75px;
 }
 
+.posWithLeftBox2 {
+  position: absolute;
+  left: 140%;
+  top: 70%;
+}
+
+.enroll {
+  background-color: #f9c32d;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  z-index: 999;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 8px 42px;
+}
+
+.enroll:hover {
+  background-color: #000;
+  color: #f9c32d;
+  font-weight: 700;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 8px 42px;
+}
+
+.posWithLeftBox {
+  position: absolute;
+  left: 140%;
+  top: 80%;
+}
+
 .fs14 {
   font-size: 14px !important;
 }
@@ -596,6 +628,10 @@ ul.dashed > li:before {
 ol,
 .sec-unvi ul {
   margin-left: 3.7rem;
+}
+
+.w-55 {
+  width: 55%;
 }
 
 /* .prizesImgTemp {
@@ -695,6 +731,9 @@ ol,
 }
 
 @media only screen and (max-width: 768px) {
+  .posWithLeftBox {
+  }
+
   .containerPd20 {
     margin: auto;
     /* width: 300px; */
@@ -823,6 +862,15 @@ ol,
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    top: 20%;
+  }
+
+  .w-55 {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 550px) {
   .s-section h2 {
     font-size: 2rem !important;
