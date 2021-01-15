@@ -61,6 +61,10 @@
   width: 100% !important;
 }
 
+.accordion-body {
+  margin-bottom: 1.2rem;
+}
+
 .accordion-body .schoolName {
   font-size: 1.2rem;
   margin-left: 24px;
