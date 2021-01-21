@@ -9,6 +9,10 @@ ul.dashed > li:before {
   text-indent: -5px;
 }
 
+/* .s-section h2.text-blue2 {
+  color: #209dd4 !important;
+} */
+
 .btn-stu {
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
@@ -340,6 +344,10 @@ ul.dashed > li:before {
   transform: translate(-50%, -50%);
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .inSizeBallText1 {
   color: white;
   font-weight: bold;
@@ -512,6 +520,18 @@ ul.dashed > li:before {
 
 .timeLineContainer {
   margin: 0 15%;
+}
+
+.h6-spec {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.indexBlueActionBtn {
+  position: absolute;
+  right: -25px;
+  bottom: -28px;
+  border-radius: 8px;
 }
 
 /* contact */
@@ -817,6 +837,14 @@ ol,
   .mediaCol-768-12 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .col-992-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 36px !important;
   }
 }
 
