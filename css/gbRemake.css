@@ -750,6 +750,12 @@ ol,
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .d-768-none {
+    display: block !important;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .posWithLeftBox {
   }
@@ -914,6 +920,14 @@ ol,
     padding: 0px;
     flex: 0 0 16.666667% !important;
     max-width: 6% !important;
+  }
+
+  .d-768-block {
+    display: block !important;
+  }
+
+  .d-768-none {
+    display: none !important;
   }
 }
 
