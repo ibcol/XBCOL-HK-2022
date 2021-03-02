@@ -16,11 +16,11 @@ ul.dashed > li:before {
 .btn-stu {
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0px;
-  height: 3.5rem;
+  height: 50px;
   line-height: 0rem;
   /* padding: 0 3rem; */
   /* margin: 0 0.3rem 1.2rem 0; */
@@ -32,6 +32,8 @@ ul.dashed > li:before {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #c5c5c5;
+  width: 200px;
+  border-radius: 6px;
   /* border: 0.2rem solid #c5c5c5; */
 }
 
@@ -55,6 +57,7 @@ ul.dashed > li:before {
   background-color: #0086ca;
   border-color: #0086ca;
   color: white;
+  
 }
 
 .reg-training-btn:hover {
@@ -86,7 +89,7 @@ ul.dashed > li:before {
 }
 
 .pageAnchorColor {
-  color: #0286ca !important;
+  color: #209dd4 !important;
 }
 
 .textBlack {
@@ -136,6 +139,7 @@ ul.dashed > li:before {
 
 .colorBk {
   color: #000 !important;
+  margin-top: 30px !important;
 }
 
 .w100 {
@@ -158,7 +162,7 @@ ul.dashed > li:before {
   font-size: 36px;
   line-height: 44px;
   display: flex;
-  color: #000 !important;
+  color: #0884b9 !important;
   align-items: center;
 }
 
@@ -179,7 +183,7 @@ ul.dashed > li:before {
 }
 
 .colorWt2:hover {
-  color: #0286ca !important;
+  /* color: #0286ca !important; */
 }
 
 .home-content__button {
@@ -191,28 +195,30 @@ ul.dashed > li:before {
 }
 
 .s-homeHeaderTextColor {
-  color: white !important;
-  font-weight: bold;
-  font-size: 72px !important;
-  line-height: 88px;
-  margin-bottom: 24px !important;
+  color: #0884b9 !important;
+  font-weight:bolder !important;
+  font-size: 42px !important;
+  /* line-height: 88px; */
+  margin-bottom: 10px !important;
   /* display: flex; */
   align-items: center;
   text-align: center;
+  margin-top: -7px !important;
 }
 
 .s-homeTextColor {
   font-family: Nunito Sans;
   font-style: normal;
-  font-weight: bold !important;
-  font-size: 28px;
-  line-height: 49px;
+  font-weight: bolder !important;
+  font-size: 15px;
+  /* line-height: 49px; */
   /* identical to box height */
   width: 100%;
   /* display: flex; */
   align-items: center !important;
   text-align: center !important;
-  color: #ffffff !important;
+  color: #0884b9 !important;
+  margin-top: 60px !important;
 }
 
 .photoTitle {
@@ -268,7 +274,7 @@ ul.dashed > li:before {
 .headerBlueText {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
@@ -276,32 +282,32 @@ ul.dashed > li:before {
   display: flex;
   align-items: center;
 
-  color: #0286ca;
+  color: #0884b9;
 }
 
 .headerBlueText2 {
   margin-top: 0px;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: bolder;
+  font-size: 28px;
   line-height: 29px;
   /* identical to box height */
   text-align: center;
 
-  color: #0286ca;
+  color: #0884b9;
 }
 
 .headerBlueText3 {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   line-height: 29px;
   /* identical to box height */
   text-align: center;
 
-  color: #0286ca;
+  color: #0884b9;
 }
 
 .mb-7 {
@@ -311,6 +317,7 @@ ul.dashed > li:before {
 .paddingAdjustedFooter {
   padding-bottom: 36px;
   padding-top: 36px;
+  background-color: #252424;
 }
 
 .footerHeaderText {
@@ -320,7 +327,8 @@ ul.dashed > li:before {
 
 .footerParaText {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 50 !important;
 }
 
 /* how to join */
@@ -554,7 +562,7 @@ ul.dashed > li:before {
   font-weight: 700;
   z-index: 999;
   width: fit-content;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 8px 42px;
 }
 
@@ -617,13 +625,14 @@ ul.dashed > li:before {
 }
 
 .s-section h2.blueText {
-  color: #0286ca !important;
+  color: #0884b9 !important;
+  font-size: 30btpx !important;
 }
 
 .blueBg {
   color: #fff;
-  border-color: #0286ca !important;
-  background-color: #0286ca !important;
+  border-color: #0884b9 !important;
+  background-color: #0884b9 !important;
 }
 
 .blueBg:focus {
@@ -632,8 +641,8 @@ ul.dashed > li:before {
 
 .blueBg:hover {
   color: #fff;
-  border-color: #007ab7 !important;
-  background-color: #007ab7 !important;
+  border-color: #0884b9 !important;
+  background-color: #0884b9 !important;
 }
 
 .newblack {
