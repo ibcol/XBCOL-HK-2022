@@ -73,7 +73,7 @@ body {
 
 body {
   background: #ffffff;
-  font-family: "Nunito Sans", sans-serif !important;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -87,18 +87,16 @@ body {
 * ## links
 * ------------------------------------------------------------------- */
 a {
-  color: #209dd4;
+  color: #793ea5;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  font-size: 12.5px;
 }
 
 a:hover,
 a:focus,
 a:active {
   text-decoration: underline;
-  font-weight: bold;
 }
 
 a:hover,
@@ -555,8 +553,6 @@ form,
 .video-container,
 .ss-custom-select {
   margin-bottom: 3rem;
-  font-size: 13px;
-  font-weight: 500;
 }
 
 /* ===================================================================
@@ -569,7 +565,7 @@ form,
   left: 0;
   right: 0;
   bottom: 0;
-  background: #afadad;
+  background: #151515;
   z-index: 800;
   height: 100vh;
   width: 100%;
@@ -990,8 +986,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #209dd4;
-  border-color: #209dd4;
+  background: #0086ca;
+  border-color: #0086ca;
   color: #ffffff;
 }
 
@@ -1005,8 +1001,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #209dd4;
-  border-color: #209dd4;
+  background: #0086cad1;
+  border-color: #0086cad1;
 }
 
 /* button modifiers
@@ -1098,7 +1094,7 @@ input::-moz-focus-inner {
 
 .alert-box--info {
   background-color: #d7ecfb;
-  color: #209dd4;
+  color: #4a95cc;
 }
 
 .alert-box--notice {
@@ -1460,7 +1456,7 @@ body.menu-is-open {
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: #209dd4;
+  color: #0286ca;
   margin-top: 0;
   margin-bottom: 3rem;
   position: relative;
@@ -1661,8 +1657,7 @@ body.menu-is-open {
   background-color: transparent;
   position: absolute;
   top: 0;
-  /* margin-top: 21px; */
-  
+  margin-top: 21px;
 }
 .s-header.moved {
   background-color: white;
@@ -1694,9 +1689,7 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  height: 45px;
-  width: 285px;
-  margin-left: 5px;
+  height: 75px;
 }
 
 .header-logo.subpage img {
@@ -1752,7 +1745,7 @@ body.menu-is-open {
   margin-bottom: 7.2rem;
   margin-top: 1.2rem;
   padding-right: 140px;
-  color: #209dd4;
+  color: #0086ca;
   position: relative;
 }
 
@@ -1761,7 +1754,7 @@ body.menu-is-open {
   display: block;
   height: 1px;
   width: 110px;
-  background-color: #209dd4;
+  background-color: #0086ca;
   position: absolute;
   top: 50%;
   right: 0;
@@ -1982,23 +1975,18 @@ body.menu-is-open {
 }
 .desktop-nav .nav_list {
   list-style: none;
-  
 }
 .desktop-nav .nav_list li {
   float: left;
-  font-size: 12px;
-  margin-right: 10px;
-  padding-left: 10px;
-    padding-right: 10px
-  
+  font-size: 15px;
+  margin-right: 22px;
 }
 .desktop-nav .nav_list li a {
-  /* color: #151515; */
-  color: #929292;
+  color: #151515;
 }
 .desktop-nav .nav_list li.current a,
 .desktop-nav .nav_list li a:hover {
-  color: #565a5a;
+  color: #0086ca;
   text-decoration: underline;
 }
 
@@ -2057,7 +2045,6 @@ body.menu-is-open {
   .s-header {
     height: 90px;
     top: 12px;
-    
   }
 
   .header-nav {
@@ -2139,11 +2126,10 @@ body.menu-is-open {
 * ## home content
 * ------------------------------------------------------------------- */
 .home-content {
-  /* display: table-cell; */
+  display: table-cell;
   vertical-align: middle;
-  /* padding-top: 6.6rem; */
+  padding-top: 6.6rem;
   width: 100%;
-  margin-top: 130px;
   overflow: hidden;
   position: relative;
   z-index: 4;
@@ -2798,7 +2784,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .process .item-process.blue h4::before {
-  background-color: #209dd4;
+  background-color: #0086ca;
 }
 .process .item-process.yellow h4::before {
   background-color: #f6c215;
@@ -3639,7 +3625,7 @@ padding-left: 30px;
 .s-contact {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-color: #209dd4;
+  background-color: #0086ca;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   position: relative;
@@ -4111,17 +4097,16 @@ tr.last td {
 .logo-dl a.btn {
   margin-top: 30px;
   background: transparent !important;
-  border: 0.2rem solid #209dd4;
+  border: 0.2rem solid #0086ca;
   color: #000000;
 }
 .logo-dl a.btn:hover {
-  background: #209dd4 !important;
-  border: 0.2rem solid #209dd4;
+  background: #0086ca !important;
+  border: 0.2rem solid #0086ca;
   color: #ffffff;
 }
 .s-section {
   padding-top: 6rem;
-  padding-bottom: 40px;
 }
 .s-section.first {
   padding-top: 18rem;
@@ -4150,16 +4135,6 @@ tr.last td {
     clear: both;
   }
 }
-
-/* header banner */
-.hader-banner{
-  /* margin-top: 130px;  */
-  background-image: url(../images/Hong-Kong-Skyline.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 80px;
-  filter: contrast(1.4);
-}
 .no-results {
   padding-right: 0;
   margin-top: 15px;
@@ -4173,7 +4148,7 @@ tr.last td {
 }
 .get-results {
   padding: 30px;
-  background: #209dd4;
+  background: #0086ca;
   color: white;
   border-radius: 0.375rem;
   box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12),
@@ -4221,7 +4196,7 @@ tr.last td {
   font-size: 2rem;
 }
 .icon i.blue {
-  background: #209dd4;
+  background: #0390cf;
 }
 .icon i.yellow {
   background: #f9c914;
@@ -4318,13 +4293,3 @@ td.minw {
 .rep {
   margin-left: 3em;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #ffffff;
-  opacity: .95;
-  z-index: 9999;
-}
-
-
