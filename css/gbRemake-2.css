@@ -1,3 +1,7 @@
+.broder-radius-8px {
+  border-radius: 8px !important;
+}
+
 .btn-grey-near-bg-color {
   background-color: #787a7b !important;
   border: #787a7b !important;
