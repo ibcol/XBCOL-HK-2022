@@ -1,3 +1,8 @@
+.btn-grey-near-bg-color {
+  background-color: #787a7b !important;
+  border: #787a7b !important;
+}
+
 ul.dashed {
   list-style-type: none;
 }
@@ -678,7 +683,7 @@ ol,
   }
 
   .indexBlueActionBtn {
-    position: absolute;
+    /* position: absolute; */
     right: -18px;
     bottom: -20px;
     border-radius: 8px;

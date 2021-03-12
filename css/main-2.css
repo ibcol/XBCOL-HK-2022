@@ -1682,7 +1682,7 @@ body.menu-is-open {
   top: 0;
   vertical-align: middle;
   background: white;
-    opacity: .95
+  opacity: 0.95;
 }
 
 .s-header__scroll {
@@ -2178,7 +2178,7 @@ body.menu-is-open {
   }
 
   .hero-section-2 {
-    margin-top: -90px;
+    /* margin-top: -90px; */
   }
 }
 
@@ -2905,7 +2905,7 @@ html.no-csstransitions .home-content__main {
 /*.item-process:nth-child(2n+1) {
   padding-right: 30px;
   }
-  
+
   .item-process:nth-child(2n+2) {
   padding-left: 30px;
   }*/
