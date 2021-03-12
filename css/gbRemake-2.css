@@ -528,12 +528,14 @@ ul.dashed > li:before {
 }
 
 .indexBlueActionBtn {
-  position: absolute;
+  /* position: absolute;
   right: -25px;
-  bottom: -28px;
+  bottom: -28px; */
+  margin-top: 12px;
+  /* text-align: center; */
   border-radius: 8px;
-  font-size: 26px;
-  padding: 26px 50px;
+  font-size: 20px;
+  padding: 18px 32px;
   font-weight: normal;
   text-transform: capitalize;
 }
