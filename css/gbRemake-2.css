@@ -1070,4 +1070,40 @@ ol,
   }
 }
 
+@media only screen and (min-width: 1201px) {
+  .dropdown .dropbtn.desktop-nav-link {
+    font-size: 12px;
+  }
+
+  .nav_list .NavLinkComponent.desktop-nav-link {
+    font-size: 12px;
+  }
+
+  .nav_list .NavLinkComponent.desktop-nav-link-active {
+    font-size: 12px;
+  }
+
+  .desktop-nav .nav_list li {
+    margin-right: 14px !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .dropdown .dropbtn.desktop-nav-link {
+    font-size: 15px;
+  }
+
+  .nav_list .NavLinkComponent.desktop-nav-link {
+    font-size: 15px;
+  }
+
+  .nav_list .NavLinkComponent.desktop-nav-link-active {
+    font-size: 15px;
+  }
+
+  .desktop-nav .nav_list li {
+    margin-right: 22px !important;
+  }
+}
+
 /* ----------------------------------------------- */
