@@ -2044,7 +2044,7 @@ body.menu-is-open {
 .desktop-nav .nav_list li.current a,
 .desktop-nav .nav_list li a:hover {
   color: #0086ca;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* -------------------------------------------------------------------
