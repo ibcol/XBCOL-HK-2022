@@ -567,8 +567,8 @@ ul.dashed > li:before {
   color: #000;
   cursor: pointer;
   font-weight: 700;
-  z-index: 999;
-  width: fit-content;
+/*  z-index: 999;
+*/  width: 150px;
   border-radius: 4px;
   padding: 8px 42px;
 }
@@ -577,7 +577,7 @@ ul.dashed > li:before {
   background-color: #000;
   color: #f9c32d;
   font-weight: 700;
-  width: fit-content;
+  width: 150px;
   border-radius: 4px;
   padding: 8px 42px;
 }
