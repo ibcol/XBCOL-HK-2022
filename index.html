@@ -45,181 +45,75 @@
         </div>
     </div>
 
-    <header class="s-header ">
+    <header class="s-header">
+        <!-- Site Logo -->
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo/resized/IBCOL HK Horizontal.png" alt="IBCOL: International Blockchain Olympiad" />
             </a>
         </div>
+        <!-- Navigation bar for wide screens -->
         <div class="desktop-nav" style="padding-top: 20px">
             <ul class="nav_list">
                 <li>
-                    <a class="NavLinkComponent desktop-nav-link-active" href="./index.html#about">About</a>
+                    <a class="NavLinkComponent desktop-nav-link-active" href="./index.html">About</a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropbtn desktop-nav-link" href="./secondaryStudentTrack.html" >Secondary School Track</a>
+                    <a class="dropbtn desktop-nav-link" href="./secondaryStudentTrack.html">Secondary School Track</a>
                     <div class="dropdown-content">
                         <a target="_blank" target="_blank" href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a>
-                            <a href="./secondarySchoolTrackTimeline.html">Timeline</a>
-                       
-                            <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
-                       
-                        <a target="_blank"
-                            href="./FutureOpportunities.html">Future Opportunities</a>
-                       
+                        <a href="./secondarySchoolTrackTimeline.html">Timeline</a>
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
+                        <a target="_blank" href="./FutureOpportunities.html">Future Opportunities</a>
                     </div>
                 </li>
-
-                <!-- <li class="dropdown">
-                    <a class="dropbtn desktop-nav-link" >University Track</a>
+                <li class="dropdown">
+                    <a class="dropbtn desktop-nav-link" href="./universityTrack.html">University Track</a>
                     <div class="dropdown-content">
                         <a href="./universityTrack.html" >Timeline</a>
                         <a target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a>
                         <a target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a>
                         <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a>
                     </div>
-                </li> -->
-
-                <li class="dropdown">
-                    <a class="dropbtn desktop-nav-link" href="./universityTrack.html">University Track</a>
-                    <div class="dropdown-content">
-                        <a href="./universityTrack.html">Timeline</a>
-                        <a
-                            target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a>
-                        <a target="_blank" target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a>
-                        <a
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a>
-                    </div>
                 </li>
-
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link" href="./micro-consulting-day.html">Micro-consulting
-                        Day</a>
-                </li>
-
-
-
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link" href="./schoolChapter1.html">Chapters</a>
-                </li>
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link" href="./BlockchanTrainingCourses.html">Workshops</a>
-                </li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./micro-consulting-day.html">Micro-consulting Day</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./schoolChapter1.html">Chapters</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./BlockchanTrainingCourses.html">Workshops</a></li>
                 <li class="dropdown">
                     <a class="dropbtn desktop-nav-link">Register</a>
                     <div class="dropdown-content">
-                        <a
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As
-                            University Student</a>
-                        <a
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As
-                            Secondary Student</a>
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As University Student</a>
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As Secondary Student</a>
                     </div>
                 </li>
             </ul>
         </div>
-
+        <!-- Navigation bar for mobile screens -->
+        <a class="header-menu-toggle" href="#"><span class="header-menu-icon"></span></a>
         <nav class="header-nav">
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./index.html#about">About</a>
-                        </h2>
-                    </li>
-
-                    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./secondaryStudentTrack.html">Secondary School Track</a>
-                        </h2>
-                    </li>
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank"
-                            href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a>
-                    </li>
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5" href="./secondarySchoolTrackTimeline.html">Timeline</a>
-                    </li>
-                    
-                    <li>
-                        <a class="NavLinkComponent ml-5"
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
-                    </li>
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank"
-                            href="./FutureOpportunities.html">Future Opportunities</a>
-                    </li>
-
-                    <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./universityTrack.html">University Track</a>
-                        </h2>
-                    </li>
-
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5"
-                            href="./universityTrack.html">Timeline</a>
-                    </li>
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5"
-                            target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a>
-                    </li>
-
-                    <li>
-                        <a style="color: inherit;" class="NavLinkComponent ml-5"
-                            target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a>
-                    </li>
-
-                    <li>
-                        <a class="NavLinkComponent ml-5"
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a>
-                    </li>
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./micro-consulting-day.html">Micro-consulting Day</a>
-                        </h2>
-                    </li>
-
-
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent mb-2" href="./schoolChapter1.html">Chapters</a>
-                        </h2>
-                    </li>
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent mb-2" href="./BlockchanTrainingCourses.html">Workshops</a>
-                        </h2>
-                    </li>
-
-                    <li>
-                        <h2 class="my-0 text-white">Register</h2>
-                    </li>
-
-                    <li>
-                        <a class="NavLinkComponent ml-5"
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As
-                            Secondary Student</a>
-                    </li>
-                    <li>
-                        <a class="NavLinkComponent ml-5"
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As
-                            University Student</a>
-                    </li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./index.html">About</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./secondaryStudentTrack.html">Secondary School Track</a></h2></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" href="./secondarySchoolTrackTimeline.html">Timeline</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="./FutureOpportunities.html">Future Opportunities</a></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./universityTrack.html">University Track</a></h2></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" href="./universityTrack.html">Timeline</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./micro-consulting-day.html">Micro-consulting Day</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent mb-2" href="./schoolChapter1.html">Chapters</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent mb-2" href="./BlockchanTrainingCourses.html">Workshops</a></h2></li>
+                    <li><h2 class="my-0 text-white">Register</h2></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As Secondary Student</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As University Student</a></li>
                 </ul>
             </div>
         </nav>
-
-        <a class="header-menu-toggle" href="#">
-            <span class="header-menu-icon"></span>
-        </a>
     </header>
 
     <section class="hero-section-1"></section>
@@ -227,17 +121,9 @@
         <div class="header-small-text">An open case blockchain competition.</div>
         <div class="header-big-text">Develop Skills that</div>
         <div class="header-big-text">Future-proof your Career</div>
-
         <div class="home-content__button centre w100 mt-5 row" style="z-index: 999;">
-
-            <div class="aaaaa">
-                <a href="./secondaryStudentTrack.html"
-                    class="broder-radius-8px btn btn--primary mx-3 btn--large">Register as Secondary Student</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform?gxids=7628" class="broder-radius-8px btn btn--primary btn--large mx-3 ">Register as
-                    University Student</a>
-
-            </div>
-
+            <a class="broder-radius-8px btn btn--primary mx-3 btn--large" href="./secondaryStudentTrack.html">Register as Secondary Student</a>
+            <a class="broder-radius-8px btn btn--primary mx-3 btn--large" href="https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform?gxids=7628" >Register as University Student</a>
         </div>
     </div>
     <section class="hero-section-2" style="border-top: 2px solid white">
@@ -277,20 +163,9 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <p class="home-about__text">
-                    The Hong Kong Blockchain Olympiad (HKBCOL) is an annual competition
-                    inviting current and recent students to propose solutions to
-                    real-world problems using blockchain technology.
-                    <br /><br />
-                    HKBCOL combines the practicality of a traditional case competitions
-                    with the open-ended problem-solving culture of hack-a-thons. As a
-                    team of up to 5 students, competitors will submit their case as
-                    using an academic conference style white-paper along with a pitch
-                    and presentation deck.
-                    <br /><br />
-                    High performing teams are then invited to register for the
-                    International Blockchain Olympiad where they compete against the
-                    very best from around the world.
-                    <br /><br />
+                    The Hong Kong Blockchain Olympiad (HKBCOL) is an annual competition inviting current and recent students to propose solutions to real-world problems using blockchain technology.<br><br>
+                    HKBCOL combines the practicality of a traditional case competitions with the open-ended problem-solving culture of hack-a-thons. As a team of up to 5 students, competitors will submit their case as using an academic conference style white-paper along with a pitch and presentation deck.<br><br>
+                    High performing teams are then invited to register for the International Blockchain Olympiad where they compete against the very best from around the world.<br><br>
                     <span class="home-about__reg_text">No registration or participation costs.</span>
                 </p>
             </div>
@@ -309,11 +184,7 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <p class="home-about__text">
-                    As we move into an ever growing online world, students will find
-                    themselves in a job market where blockchain will be generating over
-                    HK$24 trillion by 2030 across all industry verticals. HKBCOL offers
-                    not only a strong foundation for these pathways but also valuable
-                    experience in critical thinking and problem solving.
+                    As we move into an ever growing online world, students will find themselves in a job market where blockchain will be generating over HK$24 trillion by 2030 across all industry verticals. HKBCOL offers not only a strong foundation for these pathways but also valuable experience in critical thinking and problem solving.
                 </p>
             </div>
         </div>
@@ -352,15 +223,10 @@
                     <b>Secondary School Students</b>
                 </h6>
                 <p class="ml-4 mb-3 home-about__text">
-                    Check if your school has been nominated to compete. You can find the
-                    list of nominated/participating schools
-                    <a href="./chapters.html">here</a>.
-                    <br>
-
-
+                    Check if your school has been nominated to compete. You can find the list of nominated/participating schools <a href="./chapters.html">here</a>.<br>
                 </p>
                 <a class="ml-4 link__text" href="./secondaryStudentTrack.html">More about the secondary school track</a>
-                <br />
+                <br>
 
                 <div class="ml-4 mt-2">
                     <p> <a href="./download/Olympiads_2021.pdf" download> Download a brochure </a> to know more about
@@ -386,7 +252,7 @@
                     Olympiad.
                 </p>
                 <a class="ml-4 link__text" href="./universityTrack.html">More about the university track</a>
-                <br />
+                <br>
 
                 <div class="w-100 text-center mt-5">
                     <button type="button"
@@ -427,7 +293,7 @@
                 </div>
                 <div>
                     <p class="footerParaText">
-                        Hong Kong Blockchain Olympiad <br />
+                        Hong Kong Blockchain Olympiad <br>
                         hk@ibcol.org
                     </p>
                 </div>
@@ -442,9 +308,9 @@
                 follow social media channels
               </p> -->
                     </div>
-                    <br />
-                    <br />
-                    <br />
+                    <br>
+                    <br>
+                    <br>
                     <div class="col-12 mt-1 pt-1 mt-md-5 pt-md-4">
                         <a href="https://www.instagram.com/ibcol_org" target="_blank"><img class="media768FooterImg"
                                 src="./images/sm/ig.png" /></a>&nbsp;&nbsp;&nbsp;
