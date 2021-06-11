@@ -82,12 +82,15 @@
     </div>
 
     <header class="s-header">
+        <!-- Site Logo -->
         <div class="header-logo">
             <a class="site-logo" href="index.html">
                 <img src="images/logo/resized/IBCOL HK Horizontal.png" alt="IBCOL: International Blockchain Olympiad" />
             </a>
         </div>
+        <!-- Navigation bar for wide screens -->
         <div class="desktop-nav" style="padding-top: 20px">
+            <!-- REMOVE BEFORE FLIGHT: add class "desktop-nav-link-active" instead of "desktop-nav-link" for current page -->
             <ul class="nav_list">
                 <li>
                     <a class="NavLinkComponent desktop-nav-link" href="./index.html">About</a>
@@ -95,20 +98,14 @@
                 <li class="dropdown">
                     <a class="dropbtn desktop-nav-link" href="./secondaryStudentTrack.html">Secondary School Track</a>
                     <div class="dropdown-content">
-                        <a target="_blank" target="_blank" href="download/Secondary School Track Evaluation Criteria.pdf">Judging
-                            Criteria</a>
+                        <a target="_blank" target="_blank" href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a>
                         <a href="./secondarySchoolTrackTimeline.html">Timeline</a>
-                
-                        <a
-                            onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
-                
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
                         <a target="_blank" href="./FutureOpportunities.html">Future Opportunities</a>
-                
                     </div>
                 </li>
-
                 <li class="dropdown">
-                    <a class="dropbtn desktop-nav-link" >University Track</a>
+                    <a class="dropbtn desktop-nav-link" href="./universityTrack.html">University Track</a>
                     <div class="dropdown-content">
                         <a href="./universityTrack.html" >Timeline</a>
                         <a target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a>
@@ -116,118 +113,44 @@
                         <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a>
                     </div>
                 </li>
-
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link-active" href="./micro-consulting-day.html">Micro-consulting Day</a>
-                </li>
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link" href="./schoolChapter1.html">Chapters</a>
-                </li>
-                <li>
-                    <a class="NavLinkComponent desktop-nav-link" href="./BlockchanTrainingCourses.html">Workshops</a>
-                </li>
+                <li><a class="NavLinkComponent desktop-nav-link-active" href="./micro-consulting-day.html">Micro-consulting Day</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./schoolChapter1.html">Chapters</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./BlockchanTrainingCourses.html">Workshops</a></li>
                 <li class="dropdown">
                     <a class="dropbtn desktop-nav-link">Register</a>
                     <div class="dropdown-content">
-                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As
-                            University Student</a>
-                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As
-                            Secondary Student</a>
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As University Student</a>
+                        <a onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As Secondary Student</a>
                     </div>
                 </li>
             </ul>
         </div>
-
+        <!-- Navigation bar for mobile screens -->
+        <a class="header-menu-toggle" href="#"><span class="header-menu-icon"></span></a>
         <nav class="header-nav">
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
             <div class="header-nav__content">
                 <ul class="header-nav__list">
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./index.html">About</a>
-                        </h2>
-                    </li>
-                <li>
-                    <h2 class="my-0">
-                        <a class="NavLinkComponent" href="./secondaryStudentTrack.html">Secondary School Track</a>
-                    </h2>
-                </li>
-                <li>
-                    <a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank"
-                        href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a>
-                </li>
-                <li>
-                    <a style="color: inherit;" class="NavLinkComponent ml-5" href="./secondarySchoolTrackTimeline.html">Timeline</a>
-                </li>
-                
-                <li>
-                    <a class="NavLinkComponent ml-5"
-                        onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a>
-                </li>
-                <li>
-                    <a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="./FutureOpportunities.html">Future
-                        Opportunities</a>
-                </li>
-
-                    <li>
-    <h2 class="my-0">
-        <a class="NavLinkComponent" href="./universityTrack.html">University Track</a>
-    </h2>
-</li>
-
-<li>
-    <a style="color: inherit;" class="NavLinkComponent ml-5" href="./universityTrack.html">Timeline</a>
-</li>
-<li>
-    <a style="color: inherit;" class="NavLinkComponent ml-5"
-        target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a>
-</li>
-
-<li>
-    <a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a>
-</li>
-
-<li>
-    <a class="NavLinkComponent ml-5"
-        onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a>
-</li>
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent" href="./micro-consulting-day.html">Micro-consulting Day</a>
-                        </h2>
-                    </li>
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent mb-2" href="./schoolChapter1.html">Chapters</a>
-                        </h2>
-                    </li>
-
-                    <li>
-                        <h2 class="my-0">
-                            <a class="NavLinkComponent mb-2" href="./BlockchanTrainingCourses.html">Workshops</a>
-                        </h2>
-                    </li>
-
-                    <li>
-                        <h2 class="my-0 text-white">Register</h2>
-                    </li>
-
-                    <li>
-                        <a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As
-                            Secondary Student</a>
-                    </li>
-                    <li>
-                        <a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As
-                            University Student</a>
-                    </li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./index.html">About</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./secondaryStudentTrack.html">Secondary School Track</a></h2></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/Secondary School Track Evaluation Criteria.pdf">Judging Criteria</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" href="./secondarySchoolTrackTimeline.html">Timeline</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">Registration</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="./FutureOpportunities.html">Future Opportunities</a></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./universityTrack.html">University Track</a></h2></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" href="./universityTrack.html">Timeline</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/IBCOL 2021 Rules_+Eligibility,+Submissions,+Participation,+Prizes,+Schedule.pdf">Rules</a></li>
+                        <li><a style="color: inherit;" class="NavLinkComponent ml-5" target="_blank" href="download/IBCOL 2021 Evaluation Criteria v.current.pdf">Judging Criteria</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">Registration</a></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent" href="./micro-consulting-day.html">Micro-consulting Day</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent mb-2" href="./schoolChapter1.html">Chapters</a></h2></li>
+                    <li><h2 class="my-0"><a class="NavLinkComponent mb-2" href="./BlockchanTrainingCourses.html">Workshops</a></h2></li>
+                    <li><h2 class="my-0 text-white">Register</h2></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfg4pM7tn62h64DQnkIiv65hwa5zY_ezZnD-L5qrAaILnwuGg/viewform');">As Secondary Student</a></li>
+                        <li><a class="NavLinkComponent ml-5" onclick="openInNewTab('https://docs.google.com/forms/d/e/1FAIpQLSfvZi1M771kP57Qu3xPHW41jcqDwwa3yk1lRoE19KJYwFzLQA/viewform');">As University Student</a></li>
                 </ul>
             </div>
         </nav>
-
-        <a class="header-menu-toggle" href="#">
-            <span class="header-menu-icon"></span>
-        </a>
     </header>
 
     <section class="s-section target-section topSection">
@@ -238,8 +161,6 @@
                     <p class=" mb-0 text-center text-black text-light-black underHeaderText" style="font-size: 20px !important;">Business Pitch Simulation Workshop</p>
                 </div>
             </div>
-
-
         </div>
 
         <div class="container-fluid colorBk mt-2" style="padding-top: 0px; padding-bottom: 80px;">
