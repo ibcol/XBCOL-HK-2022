@@ -320,6 +320,7 @@ ul.dashed > li:before {
 .paddingAdjustedFooter {
   padding-bottom: 36px;
   padding-top: 36px;
+  background-color: #292929
 }
 
 .footerHeaderText {
