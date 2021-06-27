@@ -4470,4 +4470,51 @@ td.minw {
   color: #555555;
   font-size: 1.6rem;
 }
+
+.flex-ceter-start {
+  display: flex;
+}
+
+.desc-text {
+  color: #555555;
+  font-size: 16px !important;
+}
+
+@media only screen and (min-width: 1081px) {
+  .min-ht-title {
+    min-height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .min-ht-desc-ss {
+    min-height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .min-ht-desc-unv {
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .icon-fix {
+    min-width: 38px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  .min-ht-award {
+    min-height: 94px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .flex-ceter-start {
+    justify-content: center;
+  }
+}
 /* ---------------------------------------------- */
