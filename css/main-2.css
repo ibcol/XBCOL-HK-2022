@@ -4512,9 +4512,32 @@ td.minw {
   }
 }
 
+@media only screen and (min-width: 1506px) {
+  .min-ht-desc-unv {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .min-ht-desc-ss {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.ch-name-br {
+  margin-top: -8px;
+}
+
 @media only screen and (max-width: 1080px) {
   .flex-ceter-start {
     justify-content: center;
+  }
+
+  .ch-name-br {
+    display: none;
   }
 }
 /* ---------------------------------------------- */
