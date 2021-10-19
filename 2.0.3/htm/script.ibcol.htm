@@ -1,0 +1,112 @@
+<!-- Required config file -->
+<script src="js/cityu.config.js"></script>
+
+<!-- Required scripts -->
+<script src="./js/modernizr.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/function.js"></script>
+    
+
+
+<!-- Optional scripts -->
+<!--for all-->
+    <script src="./js/openInNewTab.js"></script>
+    <script src="./js/clickToEnlarge.js"></script>
+   
+    <script>
+        $('.accordion-button').click(function () {
+            $(this).find('i').toggleClass('fas fa-plus fas fa-minus')
+        });
+    </script>
+
+    <script>
+        window.onscroll = function () {
+            // if (window.pageYOffset > 60) {
+            document.querySelector(".s-header").classList.add("s-header__scroll");
+            document.querySelector(".desktop-nav").classList.remove("d-none");
+            // } else {
+            // document
+            //     .querySelector(".s-header")
+            //     .classList.remove("s-header__scroll");
+            // document.querySelector(".desktop-nav").classList.add("d-none");
+            // }
+        };
+        /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches(".dropbtn")) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains("show")) {
+                        openDropdown.classList.remove("show");
+                    }
+                }
+            }
+        };
+
+        function openInNewTab(url) {
+            var win = window.open(url, "_blank");
+            win.focus();
+        }
+
+    </script>
+
+    <!--rules--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    
+
+    <!--about-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+    <script>
+        $('.accordion-button').click(function () {
+            $(this).find('i').toggleClass('fas fa-plus fas fa-minus')
+        });
+
+    </script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/openInNewTab.js"></script>
+    <script src="./js/clickToEnlarge.js"></script>
+
+    <!--Workshop-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/function.js"></script>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/openInNewTab.js"></script>
+    <script src="./js/clickToEnlarge.js"></script>
+
+
+
+    
+<!-- Place you custom scripts here -->
+<script src="js/custom.js"></script>
