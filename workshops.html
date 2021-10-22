@@ -64,10 +64,16 @@
         <!-- Navigation bar for wide screens -->
         <div class="desktop-nav" style="padding-top: 20px">
             <ul class="nav_list">
-                <li><a class="NavLinkComponent desktop-nav-link-active" href="./about.html">About</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link" href="./about.html">About</a></li>
                 <li><a class="NavLinkComponent desktop-nav-link" href="./rules.html">Rules</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./workshops.html">Workshops</a></li>
-                <li><a class="NavLinkComponent desktop-nav-link" href="./registration.html">Registration</a></li>
+                <li><a class="NavLinkComponent desktop-nav-link-active" href="./workshops.html">Workshops</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn desktop-nav-link">Register</a>
+                    <div class="dropdown-content">
+                        <a href="https://forms.gle/43FzRgsDouhGmcBUA">As University Student</a>
+                        <a href="https://forms.gle/5Bs1NbHEs6pDsz1Q6">As Secondary Student</a>
+                    </div>
+                </li>
                
             </ul>
         </div>
@@ -155,9 +161,9 @@
                                     </ul>
                                 </div>
 
-                                <div class="enroll posWithLeftBox d-none d-md-block" onclick="location.href='https://bit.ly/goskills_user_guide';">
-                                    Enroll in courses
-                                </div>
+                                <!-- <div class="enroll posWithLeftBox d-none d-md-block" onclick="location.href='https://bit.ly/goskills_user_guide';">
+                                    Enroll
+                                </div> -->
                             </div>
                             <div class="col-md-6">
                                 <p class="text-black ml-md-4 mb-0">
@@ -175,9 +181,9 @@
                                     </ul>
                                 </div>
 
-                                <div class="enroll d-block d-md-none mb-5" onclick="location.href='https://bit.ly/goskills_user_guide';">
+                                <!-- <div class="enroll d-block d-md-none mb-5" onclick="location.href='https://bit.ly/goskills_user_guide';">
                                     Enroll in courses
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -275,7 +281,7 @@
         </div>
         <div class="row">
             <div class="col-full ss-copyright mt-5 colorWt2">
-                Copyright © 2016-2021 International Blockchain Olympiad. All rights reserved.
+                Copyright © 2016-2022 International Blockchain Olympiad. All rights reserved.
             </div>
         </div>
     </footer>
