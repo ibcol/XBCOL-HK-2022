@@ -16,7 +16,7 @@
 }
 
 .accordion-collapse {
-  border: solid rgba(0,0,0,.125);
+  border: solid rgba(0, 0, 0, 0.125);
   
   border-width: 0px 0px 2px;
 }
@@ -54,12 +54,12 @@
   margin-top: 0px;
   margin-bottom: 0px;
   width: 100% !important;
-   border-bottom: 1px solid rgb(230, 227, 227) ;
+   border-bottom: 1px solid rgb(213, 213, 213) ;
 }
 
 .accordion-button {
-  background-color: #fff;
-  font-size: 1.4rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
   border-color: rgb(255, 254, 254);
   /* margin-bottom: 0px; */
   /* box-shadow: 2px 2px 1px #c7c7c7; */
@@ -72,7 +72,7 @@
 }
 
 .accordion-body .schoolName {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-left: 24px;
 }
 .accordion-body .schoolEmail {
@@ -93,4 +93,8 @@
   .mb-700-50px {
     margin-bottom: 50px !important;
   }
+}
+
+.display-4 {
+  color: rgb(59, 59, 59);
 }
